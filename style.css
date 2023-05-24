@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 36px;
+    position: relative;
+    width: 100%;
+}
+.logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+.header .navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 600px;
+}
+li {
+    margin: 0 16px;
+}
+li a {
+    color: #333;
+    text-decoration: none;
+}
+ .btn a {
+    color: #000;
+    border: 2px solid #7b7b7b;
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+    border-radius: 6px;
+ }
+
+ .section {
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+ }
+.section h1 {
+    font-size: 60px;
+    padding: 80px 0 24px 0;
+}
+.section p {
+    color: #7b7b7b;
+    font-size: 22px;
+}
+.container {
+    margin: 100px 30px;
+}
+.container .cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 300px;
+    height: 350px;
+    margin: 0 16px;
+    text-align: center;
+    border: 1px solid #a8a3a3;
+    border-radius: 6px;
+}
+.bg {
+    background-color: #c5c4c4;
+    width: 100%;
+    height: 150px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 24px 0 16px 0;
+}
+
+.card p span {
+    text-decoration: line-through;
+}
+.card .btn {
+    margin: 36px 0 0 0;
+}
